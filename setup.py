@@ -11,9 +11,9 @@ setup(
     description="how about you pip install some bitches",
     long_description_content_type="text/markdown",
     long_description=open("README.md", encoding="utf-8").read(),
-    url = "https://github.com/rdimo/bitches",
+    url = "https://github.com/rdimo/pip-install-bitches",
     project_urls={
-      "Bug Tracker": "https://github.com/rdimo/bitches/issues",
+      "Bug Tracker": "https://github.com/rdimo/pip-install-bitches/issues",
     },
     packages=find_packages(),
     keywords=['bitches', 'python', 'package', 'library', 'lib', 'module', 'checker'],
