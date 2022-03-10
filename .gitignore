@@ -1,0 +1,4 @@
+__pycache__
+pylibcheck.egg-info
+dist
+build
