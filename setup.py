@@ -15,6 +15,7 @@ setup(
     project_urls={
       "Bug Tracker": "https://github.com/rdimo/pip-install-bitches/issues",
     },
+    install_requires=['requests'],
     packages=find_packages(),
     keywords=['bitches', 'python', 'package', 'library', 'lib', 'module', 'checker'],
     classifiers=[

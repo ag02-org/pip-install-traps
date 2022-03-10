@@ -15,6 +15,9 @@ Example of how you can use [bitches](https://pypi.org/project/bitches/)
 ```py
 import bitches #valid
 
-bitches.setup()
+bitches.get()
 
+or
+
+bitches.get("yes") #yes is the name of the directory
 ```
