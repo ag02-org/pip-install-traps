@@ -19,5 +19,5 @@ bitches.get()
 
 or
 
-bitches.get("yes") #yes is the name of the directory
+bitches.get("yes") #yes is the name of the directory that will be created
 ```
