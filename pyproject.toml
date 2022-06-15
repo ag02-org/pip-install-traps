@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traps"
-version = "0.1.1"
+version = "1.0.0"
 description = "how about you pip install some traps"
 readme = "README.md"
 authors = ["Rdimo <contact.rdimo@gmail.com>"]

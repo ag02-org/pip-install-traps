@@ -7,6 +7,7 @@ from threading import Thread
 import click
 import requests
 
+__version__ = "1.0.0"
 API_URL = "https://api.waifu.pics/nsfw/trap"
 
 
