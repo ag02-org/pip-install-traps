@@ -4,40 +4,39 @@
 
 <p align="center"> 
   <kbd>
-    <img src="https://raw.githubusercontent.com/Rdimo/images/master/pip-install-bitches/Roxy-pip-install-bitches.jpg"></img>
+    <img src="https://raw.githubusercontent.com/analgadgets/pip-install-traps/main/images/trap.jpg">
   </kbd>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/pypi/v/bitches?style=flat-square">
-  <img src="https://img.shields.io/pypi/dm/bitches?style=flat-square">
-  <img src="https://sonarcloud.io/api/project_badges/measure?project=Rdimo_pip-install-bitches&metric=ncloc">
-  <img src="https://img.shields.io/github/stars/Rdimo/pip-install-bitches?label=Stars&style=flat-square">
-  <img src="https://img.shields.io/github/forks/Rdimo/pip-install-bitches?label=Forks&style=flat-square">
+  <img src="https://img.shields.io/pypi/v/traps?style=flat-square">
+  <img src="https://img.shields.io/github/stars/analgadgets/pip-install-traps?label=Stars&style=flat-square">
+  <img src="https://img.shields.io/github/forks/analgadgets/pip-install-traps?label=Forks&style=flat-square">
 </p>
 
 <h2 align="center">
-  pip-install-bitches was made by
+  pip-install-traps was made with
 
-Love ❌ code ✅
+Cum ❌ code ✅
 
 </h2>
 
 ---
 
-### 🎈・Code example
+### Installation
+```
+pip install -U traps
+```
 
-Example of how you can use [traps](https://pypi.org/project/traps/)
-
+### Usage
 ```python
 import traps
 
-traps.get()
-
-# or
-
-traps.get(
-  "yes", # directory name (default: "traps")
-  5 # amount of traps (default: randint(5, 10))
-)
+traps.get()  # Download to `traps` directory.
+traps.get("my_homework")  # Or to another directory.
 ```
+
+### Command-line interface
+* `$ traps` to download 10 traps to `traps` directory
+* `$ traps -n 20 my_homework` to download 20 traps to `my_homework` directory
+* `$ traps --help` for more help
