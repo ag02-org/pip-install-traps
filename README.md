@@ -1,5 +1,5 @@
 <h1 align="center">
-  Pip Install Bitches 😩
+  Pip Install Traps 😩
 </h1>
 
 <p align="center"> 
@@ -27,17 +27,17 @@ Love ❌ code ✅
 
 ### 🎈・Code example
 
-Example of how you can use [bitches](https://pypi.org/project/bitches/)
+Example of how you can use [traps](https://pypi.org/project/traps/)
 
-```py
-import bitches #valid
+```python
+import traps
 
-bitches.get()
+traps.get()
 
-or
+# or
 
-bitches.get(
-  "yes", # directory name (default: "bitches")
-  5 # amount of bitches (default: randint(5, 10))
+traps.get(
+  "yes", # directory name (default: "traps")
+  5 # amount of traps (default: randint(5, 10))
 )
 ```
