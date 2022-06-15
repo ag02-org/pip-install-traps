@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traps"
-version = "2.0.0"
+version = "2.0.1"
 description = "how about you pip install some traps"
 readme = "README.md"
 authors = ["Rdimo <contact.rdimo@gmail.com>"]
@@ -18,6 +18,7 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
+"Home Page" = "https://pypi.org/project/traps/"
 "Bug Tracker" = "https://github.com/analgadgets/pip-install-traps/issues"
 
 [tool.poetry.dependencies]
