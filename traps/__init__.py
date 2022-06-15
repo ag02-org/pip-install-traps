@@ -29,3 +29,11 @@ def traps(directory):
             if not block:
                 break
             f.write(block)
+
+
+def main():
+    get()
+
+
+if __name__ == '__main__':
+    main()

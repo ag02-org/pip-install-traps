@@ -1,4 +1,4 @@
-import traps
+from traps import main
 
 if __name__ == '__main__':
-    traps.get()
+    main()
