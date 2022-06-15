@@ -11,7 +11,7 @@ import click
 import requests
 from loguru import logger
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 API_URL = "https://api.waifu.pics/nsfw/trap"
 
 try:
