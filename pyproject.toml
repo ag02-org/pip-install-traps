@@ -3,7 +3,10 @@ name = "traps"
 version = "2.0.1"
 description = "how about you pip install some traps"
 readme = "README.md"
-authors = ["Rdimo <contact.rdimo@gmail.com>"]
+authors = [
+    "Rdimo <contact.rdimo@gmail.com>",
+    "Voronin9032 <voronin9032n3@gmail.com>"
+]
 license = "MIT"
 keywords = [
     "traps", "python", "package",
