@@ -32,11 +32,11 @@ pip install -U traps
 ```python
 import traps
 
-traps.get()  # Download to `traps` directory.
-traps.get("my_homework")  # Or to another directory.
+traps.get()  # Download one trap to `traps` directory.
+traps.get("my_homework", 15)  # Or download 15 traps to another directory.
 ```
 
 ### Command-line interface
-* `$ traps` to download 10 traps to `traps` directory
-* `$ traps -n 20 my_homework` to download 20 traps to `my_homework` directory
+* `$ traps install` to download 10 traps to `traps` directory
+* `$ traps install -n 20 my_homework` to download 20 traps to `my_homework` directory
 * `$ traps --help` for more help
