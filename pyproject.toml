@@ -30,7 +30,7 @@ loguru = "^0.6.0"
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
-traps = "traps.cli:cli"
+traps = "traps.cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

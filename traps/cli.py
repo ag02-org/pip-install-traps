@@ -26,6 +26,7 @@ def cli(verbose: bool):
     else:
         loglevel = "INFO"
 
+    # Remove the default logger if it exists.
     try:
         logger.remove(0)
     except ValueError:
@@ -35,7 +36,8 @@ def cli(verbose: bool):
         sys.stderr,
         level=loglevel,
         format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>"
-               "{level: <8}</level> | <level>{message}</level>"
+               "{level: <8}</level> | <level>{message}</level>",
+        filter=lambda record: record["extra"].get("name") == "traps-logger"
     )
 
 
@@ -50,9 +52,13 @@ def install(directory: pathlib.Path, amount: int):
 
 @cli.command("version", help="Print version and exit.")
 def version():
-    print(f"traps {traps.__version__}")
+    click.echo(f"{traps.__name__} {traps.__version__}")
     sys.exit(0)
 
 
+def main():
+    cli.main(windows_expand_args=False)
+
+
 if __name__ == "__main__":
-    cli()
+    main()
