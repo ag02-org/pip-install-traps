@@ -13,7 +13,6 @@ keywords = [
     "library", "lib", "module", "cli"
 ]
 classifiers = [
-    "Development Status :: 4 - Beta",
     "Natural Language :: English",
     "Intended Audience :: Developers",
     "Intended Audience :: Other Audience",
@@ -23,8 +22,8 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Homeage" = "https://github.com/analgadgets/pip-install-traps"
-"Bug Tracker" = "https://github.com/analgadgets/pip-install-traps/issues"
+"Homeage" = "https://github.com/anga02/pip-install-traps"
+"Bug Tracker" = "https://github.com/anga02/pip-install-traps/issues"
 
 [tool.poetry.dependencies]
 python = "^3.7"
